@@ -306,21 +306,21 @@
     "@atlaskit/theme" "^19.0.0"
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop-auto-scroll@file:/tmp/cc-agent/57884602/project/packages/auto-scroll":
+"@atlaskit/pragmatic-drag-and-drop-auto-scroll@file:/home/project/packages/auto-scroll":
   version "2.1.2"
   resolved "file:packages/auto-scroll"
   dependencies:
     "@atlaskit/pragmatic-drag-and-drop" "^1.7.0"
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop-docs@file:/tmp/cc-agent/57884602/project/packages/documentation":
+"@atlaskit/pragmatic-drag-and-drop-docs@file:/home/project/packages/documentation":
   version "1.4.15"
   resolved "file:packages/documentation"
   dependencies:
     "@atlaskit/platform-feature-flags" "^1.1.0"
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop-flourish@file:/tmp/cc-agent/57884602/project/packages/flourish":
+"@atlaskit/pragmatic-drag-and-drop-flourish@file:/home/project/packages/flourish":
   version "2.0.7"
   resolved "file:packages/flourish"
   dependencies:
@@ -328,20 +328,20 @@
     "@atlaskit/tokens" "^6.4.0"
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop-hitbox@^1.1.0", "@atlaskit/pragmatic-drag-and-drop-hitbox@file:/tmp/cc-agent/57884602/project/packages/hitbox":
+"@atlaskit/pragmatic-drag-and-drop-hitbox@^1.1.0", "@atlaskit/pragmatic-drag-and-drop-hitbox@file:/home/project/packages/hitbox":
   version "1.1.0"
   resolved "file:packages/hitbox"
   dependencies:
     "@atlaskit/pragmatic-drag-and-drop" "^1.7.0"
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop-live-region@file:/tmp/cc-agent/57884602/project/packages/live-region":
+"@atlaskit/pragmatic-drag-and-drop-live-region@file:/home/project/packages/live-region":
   version "1.3.1"
   resolved "file:packages/live-region"
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop-react-accessibility@file:/tmp/cc-agent/57884602/project/packages/react-accessibility":
+"@atlaskit/pragmatic-drag-and-drop-react-accessibility@file:/home/project/packages/react-accessibility":
   version "2.1.1"
   resolved "file:packages/react-accessibility"
   dependencies:
@@ -353,7 +353,7 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
-"@atlaskit/pragmatic-drag-and-drop-react-beautiful-dnd-autoscroll@^2.0.0", "@atlaskit/pragmatic-drag-and-drop-react-beautiful-dnd-autoscroll@file:/tmp/cc-agent/57884602/project/packages/react-beautiful-dnd-autoscroll":
+"@atlaskit/pragmatic-drag-and-drop-react-beautiful-dnd-autoscroll@^2.0.0", "@atlaskit/pragmatic-drag-and-drop-react-beautiful-dnd-autoscroll@file:/home/project/packages/react-beautiful-dnd-autoscroll":
   version "2.0.1"
   resolved "file:packages/react-beautiful-dnd-autoscroll"
   dependencies:
@@ -361,7 +361,7 @@
     "@babel/runtime" "^7.0.0"
     css-box-model "^1.2.0"
 
-"@atlaskit/pragmatic-drag-and-drop-react-beautiful-dnd-migration@file:/tmp/cc-agent/57884602/project/packages/react-beautiful-dnd-migration":
+"@atlaskit/pragmatic-drag-and-drop-react-beautiful-dnd-migration@file:/home/project/packages/react-beautiful-dnd-migration":
   version "2.0.6"
   resolved "file:packages/react-beautiful-dnd-migration"
   dependencies:
@@ -374,7 +374,7 @@
     bind-event-listener "^3.0.0"
     tiny-invariant "^1.2.0"
 
-"@atlaskit/pragmatic-drag-and-drop-react-drop-indicator@^3.2.0", "@atlaskit/pragmatic-drag-and-drop-react-drop-indicator@file:/tmp/cc-agent/57884602/project/packages/react-drop-indicator":
+"@atlaskit/pragmatic-drag-and-drop-react-drop-indicator@^3.2.0", "@atlaskit/pragmatic-drag-and-drop-react-drop-indicator@file:/home/project/packages/react-drop-indicator":
   version "3.2.7"
   resolved "file:packages/react-drop-indicator"
   dependencies:
@@ -384,13 +384,13 @@
     "@babel/runtime" "^7.0.0"
     "@compiled/react" "^0.18.3"
 
-"@atlaskit/pragmatic-drag-and-drop-unit-testing@file:/tmp/cc-agent/57884602/project/packages/unit-testing":
+"@atlaskit/pragmatic-drag-and-drop-unit-testing@file:/home/project/packages/unit-testing":
   version "1.1.1"
   resolved "file:packages/unit-testing"
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/pragmatic-drag-and-drop@^1.7.0", "@atlaskit/pragmatic-drag-and-drop@file:/tmp/cc-agent/57884602/project/packages/core":
+"@atlaskit/pragmatic-drag-and-drop@^1.7.0", "@atlaskit/pragmatic-drag-and-drop@file:/home/project/packages/core":
   version "1.7.7"
   resolved "file:packages/core"
   dependencies:

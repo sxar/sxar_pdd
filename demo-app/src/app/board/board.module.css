@@ -1,0 +1,160 @@
+.loading,
+.error {
+  padding: 3rem;
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+}
+
+.error {
+  color: var(--error);
+}
+
+.boardContainer {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  min-height: 500px;
+}
+
+.column {
+  flex-shrink: 0;
+  width: 300px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  transition: border-color 0.2s;
+}
+
+.column[data-is-dragging="true"] {
+  opacity: 0.5;
+}
+
+.column[data-is-over="true"] {
+  border-color: var(--primary);
+  background: var(--surface-hover);
+}
+
+.columnHeader {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: grab;
+  user-select: none;
+}
+
+.columnHeader:active {
+  cursor: grabbing;
+}
+
+.columnTitle {
+  flex: 1;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.columnCount {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  background: var(--background);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.cardsContainer {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card {
+  position: relative;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  cursor: grab;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow);
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.card[data-is-dragging="true"] {
+  opacity: 0.5;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.cardDescription {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.dropIndicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--primary);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.dropIndicator[data-edge="top"] {
+  top: -1px;
+}
+
+.dropIndicator[data-edge="bottom"] {
+  bottom: -1px;
+}
+
+.emptyColumn {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .boardContainer {
+    gap: 1rem;
+  }
+
+  .column {
+    width: 280px;
+  }
+
+  .columnHeader,
+  .cardsContainer {
+    padding: 0.75rem;
+  }
+
+  .card {
+    padding: 0.75rem;
+  }
+}

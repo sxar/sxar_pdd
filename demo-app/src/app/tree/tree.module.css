@@ -1,0 +1,76 @@
+.loading {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.treeContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.treeItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.treeItem:hover {
+  background: var(--surface-hover);
+}
+
+.expandButton {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.expandButton:hover {
+  color: var(--text);
+}
+
+.icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.label {
+  flex: 1;
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
+.children {
+  margin-left: 1.5rem;
+  border-left: 1px solid var(--border);
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .treeContainer {
+    max-width: 100%;
+  }
+
+  .children {
+    margin-left: 1rem;
+  }
+}
